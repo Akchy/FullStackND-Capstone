@@ -73,13 +73,13 @@ python test_app.py
 
 ## Deployment
 
-The app is deployed on Heroku [link](https://fsndcapstone.herokuapp.com).
+The app is deployed on Heroku [link](https://fsnd-capstone-proj.herokuapp.com).
 
 ## API Reference
 
 ### Getting Started
 
-- Base URL: [link](https://fsndcapstone.herokuapp.com)
+- Base URL: [link](https://fsnd-capstone-proj.herokuapp.com)
 - Authentication: This app has 3 users. Each has his own token which are provided in `setup.sh` file. Details about each user privilege are provided below.
 
 ### Endpoints

@@ -5,9 +5,7 @@ from flask_sqlalchemy import SQLAlchemy
 from datetime import *
 import enum
 
-database_filename = "database.db"
-project_dir = os.path.dirname(os.path.abspath(__file__))
-database_path = "sqlite:///{}".format(os.path.join(project_dir, database_filename))
+database_path = os.getenv('DATABASE_URL')
 db = SQLAlchemy()
 
 '''
